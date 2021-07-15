@@ -1,0 +1,74 @@
+.contenedor{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor h2{
+    font-size: xx-large;
+    text-align: center;
+    margin: 30px;
+}
+.contenedor h4{
+    font-size: large;
+    text-align: center;
+    margin: 30px;
+}
+.contenedor h5{
+    font-size: medium;
+    text-align: center;
+    margin: 30px;
+}
+ 
+.input{
+    width: 100%;
+}
+.inputArea{
+    width: 100%;
+    height: 100px;
+}
+.inputNum{
+    width: 100%;
+}
+table td{
+    padding: 10px;
+}
+.boton {
+    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.links a{
+    text-decoration: none;
+}
+
+.enlaceboton {   
+    padding: 6px;
+    background-color: #2e3e80;
+    color: #c7c9c7;
+    text-decoration: none;
+ }
+ .enlaceboton:link,
+ .enlaceboton:visited {
+    border-top: 1px solid #cccccc;
+    border-bottom: 2px solid #666666;
+    border-left: 1px solid #cccccc;
+    border-right: 2px solid #666666;
+ }
+ .enlaceboton:hover {
+    border-bottom: 1px solid #cccccc;
+    border-top: 2px solid #666666;
+    border-right: 1px solid #cccccc;
+    border-left: 2px solid #666666;
+ }

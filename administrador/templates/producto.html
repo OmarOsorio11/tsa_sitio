@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    {% load static %}
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">  
+    <title>TSA | Tractores y servicios agricolas</title>
+    <link rel="shortcut icon" href="{% static 'img/logos/favicon.ico' %}" >
+    <link rel="icon" type="image/gif" href="{% static 'img/logos/animated_favicon1.gif' %}" >
+    <link rel="stylesheet" href="{% static 'css/producto.css' %}">
+  </head>
+
+<body>
+    <!-- Barra de Navegacion-->
+    
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="{% static 'img/logos/logo_tsa.png' %}" height="30px">
+            </a>
+            <a class="navbar-brand" href="#">
+                <img src="{% static 'img/logos/lirics.png' %}" height="30px">
+            </a>
+            <div class="d-flex">
+
+            </div>
+        </div>
+    </nav>
+    <div style="height: 60px;">
+    </div>
+    <div class="contenedor">
+        {% for producto in prod %}
+            <div class="superior">
+                <div class="imagen">
+                    <img src="{% static producto.url_img %}" alt="">
+                </div>
+                <div class="info">
+                    <h1>{{producto.nombre}}</h1>
+                    <table style="font-size: x-large; margin: 20% 10% 20% 10%;">
+                        <tr>
+                            <td>Modelo:</td>
+                            <td style="text-align: center;">{{producto.modelo}}</td>
+                        </tr>
+                        <tr>
+                            <td>Marca:</td>
+                            <td style="text-align: center;">{{producto.marca}}</td>
+                        </tr>
+                        <tr>
+                            <td>Precio:</td>
+                            <td style="text-align: center;">${{producto.precio}}</td>
+                        </tr>
+                    </table>
+                </div>    
+            </div>
+            
+            <div class="descrip">
+                <div class="links">
+                    <a href={{producto.url_catalogo}} class="enlaceboton"> Ver ficha tecnica </a>
+                    <a href="{%url 'cotizar' producto.nombre %}" class="enlaceboton">Solicitar cotización</a>
+                </div>
+        
+                <p>
+                    {{producto.caracteristicas|linebreaks}}
+                </p>
+                <hr color="blue" size=6> 
+                
+                <p>
+                    IMPORTANTE <br>
+                    *Costos de envío/flete se definen de acuerdo a la zona **NO INCLUIDO EN EL PRECIO PUBLICADO*** <br>
+                    *El costo del producto puede variar sin previo aviso, solicita tu cotización*
+                </p>
+
+                <hr color="blue" size=6> 
+                    
+                <p>
+                    En Tractores y servicios agricolas nos interesa la satisfacción de nuestros clientes, por eso brindamos servicios de calidad a la medida de cada productor.
+                </p>
+                <p>
+                    Somos distribuidores de Tractores, implementos y servicios agricolas, en nuestros catalogos podras encontrar tractores de la marca BRAVADO FARMTRAC, 
+                    asi como implementos de las marcas SWISSMEX, BISON, FAMAQ, KELLY, LINCCE. 
+                </p>
+                <p>
+                    Como conocemos que el campo requiere atención especializada en cada lugar ofrecemos los implementos GRIZZLY
+                    una marca propia que se adaptan a las necesidades de nuestros clientes, comunicate con nosotros para mayor informacion.
+                </p>
+                
+            </div>
+            <div style="margin: 10px;">
+                    <div class="d-flex justify-content-around aling-content-center " style="margin: 5%;" >
+                      <a href="https://www.instagram.com/bravado_farmtrac_t.s.a/">
+                        <img src="{% static 'img/logos/social_media/instagram.png' %}" alt="" height="50px">
+                      </a>
+                      <a href="https://www.facebook.com/BravadoFarmtracTSA/">
+                        <img src="{% static 'img/logos/social_media/facebook.png' %}" alt="" height="50px">
+                      </a>
+                      <a href="https://api.whatsapp.com/send?phone=524526885230">
+                        <img src="{% static 'img/logos/social_media/whatsapp.png' %}" alt="" height="50px">
+                      </a>
+                      <a href="https://www.tiktok.com/@bravado_farmtrac_t.s.a">
+                        <img src="{% static 'img/logos/social_media/tiktok.png' %}" alt="" height="50px">
+                      </a>
+                    </div>
+                    <h2 class="text-center" style="margin: 10% 10% 0 10%; font-size: 20px; color:#121412">TRACTORES Y SERVICIOS AGRICOLAS DE URUAPAN S DE RL DE CV</h2>
+                    <h2 class="text-center" style="margin: 10% 10% 0 10%; font-size: 20px; color: #121412;">Boulevard industrial #4, Col. Anexo San Rafael, 60137 Uruapan, Michoacán.</h2>
+                    <h2 class="text-center" style="margin: 10% 10% 0 10%; font-size: 20px; color: #121412;">Tel. 4526885230</h2>
+            </div>   
+        {% endfor %}
+        
+    </div>
+</body>

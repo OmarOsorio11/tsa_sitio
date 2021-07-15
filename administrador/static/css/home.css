@@ -1,0 +1,813 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+div{
+    padding: 0;
+    margin: 0;
+}
+/*ExtraLarge*/
+@media (min-width: 1100px) {
+    /*Inicio*/
+    .imginicio{
+        padding: 5px;
+        height: 700px;
+    }
+    .liricsinicio{
+        height: 700px;
+    }
+    .liricsinicio h1{
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsinicio p{
+        height: 20%;
+        color: #374ca0; 
+        font-size: 1.6vw;
+    }
+    
+    .liricsinicio img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsinicio a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+    }
+    /*Second*/
+    .imgsecond{
+        margin-top: 30px;
+        padding: 5px;
+        height: 700px;
+    }
+    .liricssecond{
+        height: 700px;
+    }
+    .liricssecond h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricssecond p{
+        text-align: justify;
+        height: 20%;
+        color: white; 
+        font-size: 1.6vw;
+    }
+    
+    .liricssecond img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricssecond a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #2e3e80;
+    }
+    /*Third*/
+    .imgthird{
+        margin-top: 30px;
+        
+        padding: 5px;
+        height: 700px;
+    }
+    .liricsthird{
+        height: 700px;
+    }
+    .liricsthird h1{
+        margin-top: 30px;
+        
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsthird p{
+        text-align: justify;
+        height: 20%;
+        color: #374ca0; 
+        font-size: 1.6vw;
+    }
+    
+    .liricsthird img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsthird a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+    }
+    /*Four*/
+    .imgfour{
+        margin-top: 30px;
+        
+        padding: 5px;
+        height: 600px;
+    }
+    .liricsfour{
+        height: 600px;
+    }
+    .liricsfour h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricsfour p{
+        text-align: justify;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: 1.6vw;
+    }
+    
+    .liricsfour img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsfour a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #374ca0;
+    }
+}
+/*Large*/
+@media (min-width: 992px) and (max-width: 1100px) {
+    .imginicio{
+        padding: 5px;
+        height: 600px;
+    }
+    .liricsinicio{
+        height: 600px;
+    }
+    .liricsinicio h1{
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsinicio p{
+        text-align: justify;
+        height: 30%;
+        color: #374ca0; 
+        font-size: 1.4vw;
+    }
+    .liricsinicio img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsinicio a{
+        font-size: 1.3vw;
+        margin:5%; 
+        width: 200px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+    }
+     /*Second*/
+     .imgsecond{
+        margin-top: 30px;
+        padding: 5px;
+        height: 600px;
+    }
+    .liricssecond{
+        height: 600px;
+    }
+    .liricssecond h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricssecond p{
+        text-align: justify;
+        height: 20%;
+        color: white; 
+        font-size: 1.6vw;
+    }
+    
+    .liricssecond img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricssecond a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #2e3e80;
+    }
+    /*Third*/
+    .imgthird{
+        padding: 5px;
+        height: 700px;
+    }
+    .liricsthird{
+        height: 700px;
+    }
+    .liricsthird h1{
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsthird p{
+        text-align: justify;
+        height: 20%;
+        color: #374ca0; 
+        font-size: 1.6vw;
+    }
+    
+    .liricsthird img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsthird a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+    }
+    /*Four*/
+    .imgfour{
+        margin-top: 30px;
+        
+        padding: 5px;
+        height: 500px;
+    }
+    .liricsfour{
+        height: 500px;
+    }
+    .liricsfour h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricsfour p{
+        text-align: justify;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: 1.6vw;
+    }
+    
+    .liricsfour img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsfour a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #374ca0;
+    }
+}
+    /*Medium*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .imginicio{
+        height: 500px;
+    }
+    .liricsinicio{
+        height: 500px;
+    }
+    .liricsinicio h1{
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsinicio p{
+        text-align: justify;
+        height: 25%;
+        color: #374ca0; 
+        font-size: 1.4vw;
+        margin-bottom: 0;
+        padding-bottom: 0px;
+    }
+    .liricsinicio img{
+        margin: 3%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsinicio a{
+        font-size: 1.3vw;
+        margin:5%; 
+        width: 200px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+    }
+     /*Second*/
+     .imgsecond{
+        margin-top: 30px;
+        padding: 5px;
+        height: 500px;
+    }
+    .liricssecond{
+        height: 500px;
+    }
+    .liricssecond h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricssecond p{
+        text-align: justify;
+        height: 20%;
+        color: white; 
+        font-size: 1.6vw;
+    }
+    
+    .liricssecond img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricssecond a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #2e3e80;
+    }
+    /*Third*/
+    .imgthird{
+        padding: 5px;
+        height: 700px;
+    }
+    .liricsthird{
+        height: 700px;
+    }
+    .liricsthird h1{
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsthird p{
+        text-align: justify;
+        height: 20%;
+        color: #374ca0; 
+        font-size: 1.6vw;
+    }
+    
+    .liricsthird img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsthird a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+    }
+    /*Four*/
+    .imgfour{
+        margin-top: 30px;
+        padding: 5px;
+        height: 600px;
+    }
+    .liricsfour{
+        height: 600px;
+    }
+    .liricsfour h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricsfour p{
+        text-align: justify;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: 1.6vw;
+    }
+    
+    .liricsfour img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsfour a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #374ca0;
+    }
+}
+
+/*Small*/ 
+@media (min-width: 576px) and (max-width: 768px) {
+    .imginicio{
+        height: 700px;
+    }
+    .liricsinicio{
+        height: 700px;
+    }
+    .liricsinicio h1{
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsinicio p{
+        text-align: justify;
+        height: 25%;
+        color: #374ca0; 
+        font-size: 2.4vw;
+        margin-bottom: 0;
+        padding-bottom: 0px;
+    }
+    .liricsinicio img{
+        margin: 3%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsinicio a{
+        font-size: 2.3vw;
+        margin:10%; 
+        width: 200px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+    }
+     /*Second*/
+     .imgsecond{
+        margin-top: 30px;
+        padding: 5px;
+        height: 700px;
+    }
+    .liricssecond{
+        height: 700px;
+    }
+    .liricssecond h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricssecond p{
+        text-align: justify;
+        height: 20%;
+        color: white; 
+        font-size: 2.4vw;
+    }
+    
+    .liricssecond img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricssecond a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #2e3e80;
+        font-size: 2.3vw;
+    }
+    /*Third*/
+    .imgthird{
+        padding: 5px;
+        height: 700px;
+    }
+    .liricsthird{
+        height: 700px;
+    }
+    .liricsthird h1{
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsthird p{
+        text-align: justify;
+        height: 20%;
+        color: #374ca0; 
+        font-size: 3vw;
+    }
+    
+    .liricsthird img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsthird a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+        font-size: 2.3vw;
+    }
+    /*Four*/
+    .imgfour{
+        margin-top: 30px;
+        padding: 5px;
+        height: 600px;
+    }
+    .liricsfour{
+        height: 600px;
+    }
+    .liricsfour h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricsfour p{
+        text-align: justify;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: 3vw;
+    }
+    
+    .liricsfour img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsfour a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #374ca0;
+        font-size: 2.3vw;
+    }
+}
+/*ExtraSmall*/
+@media (min-width: 380px) and (max-width: 576px) {
+    .imginicio{
+        height: 500px;
+    }
+    .liricsinicio{
+        height: 500px;
+    }
+    .liricsinicio h1{
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsinicio p{
+        text-align: justify;
+        height: 25%;
+        color: #374ca0; 
+        font-size: 3.5vw;
+        margin-bottom: 0;
+        padding-bottom: 0px;
+    }
+    .liricsinicio img{
+        margin: 3%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsinicio a{
+        font-size: 3vw;
+        margin:10%; 
+        width: 250px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+    }
+     /*Second*/
+     .imgsecond{
+        margin-top: 30px;
+        padding: 5px;
+        height: 500px;
+    }
+    .liricssecond{
+        height: 500px;
+    }
+    .liricssecond h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricssecond p{
+        text-align: justify;
+        height: 20%;
+        color: white; 
+        font-size: 3.5vw;
+    }
+    
+    .liricssecond img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricssecond a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #2e3e80;
+        font-size: 3vw;
+    }
+    /*Third*/
+    .imgthird{
+        padding: 5px;
+        height: 500px;
+    }
+    .liricsthird{
+        height: 500px;
+    }
+    .liricsthird h1{
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsthird p{
+        text-align: justify;
+        height: 20%;
+        color: #374ca0; 
+        font-size: 3.5vw;
+    }
+    
+    .liricsthird img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsthird a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+        font-size: 3vw;
+    }
+    /*Four*/
+    .imgfour{
+        margin-top: 30px;
+        padding: 5px;
+        height: 500px;
+    }
+    .liricsfour{
+        height: 550px;
+    }
+    .liricsfour h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricsfour p{
+        text-align: justify;
+        height: 22%;
+        color: #c7c9c7; 
+        font-size: 3.5vw;;
+    }
+    
+    .liricsfour img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsfour a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #374ca0;
+        font-size: 3.0vw;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .imginicio{
+        height: 400px;
+    }
+    .liricsinicio{
+        height: 400px;
+    }
+    .liricsinicio h1{
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsinicio p{
+        text-align: justify;
+        height: 25%;
+        color: #374ca0; 
+        font-size: 3.5vw;
+        margin-bottom: 0;
+        padding-bottom: 0px;
+    }
+    .liricsinicio img{
+        margin: 3%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsinicio a{
+        font-size: 3.5vw;
+        margin:10%; 
+        width: 200px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+    }
+     /*Second*/
+     .imgsecond{
+        margin-top: 30px;
+        padding: 5px;
+        height: 400px;
+    }
+    .liricssecond{
+        height: 400px;
+    }
+    .liricssecond h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricssecond p{
+        text-align: justify;
+        height: 20%;
+        color: white; 
+        font-size: 3.5vw;
+    }
+    
+    .liricssecond img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricssecond a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #2e3e80;
+        font-size: 3.5vw;
+    }
+    /*Third*/
+    .imgthird{
+        padding: 5px;
+        height: 400px;
+    }
+    .liricsthird{
+        height: 400px;
+    }
+    .liricsthird h1{
+        height: 20%;
+        color: #2e3e80; 
+        font-size: xx-large"
+    }
+    .liricsthird p{
+        text-align: justify;
+        height: 18%;
+        color: #374ca0; 
+        font-size: 3.5vw;
+    }
+    
+    .liricsthird img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsthird a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #2e3e80; 
+        color: #c7c9c7;
+        font-size: 3.5vw;
+    }
+    /*Four*/
+    .imgfour{
+        margin-top: 30px;
+        padding: 5px;
+        height: 300px;
+    }
+    .liricsfour{
+        height: 450px;
+    }
+    .liricsfour h1{
+        margin-top: 30px;
+        height: 20%;
+        color: #c7c9c7; 
+        font-size: xx-large"
+    }
+    .liricsfour p{
+        text-align: justify;
+        height: 22%;
+        color: #c7c9c7; 
+        font-size: 3.5vw;;
+    }
+    
+    .liricsfour img{
+        margin: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .liricsfour a{
+        margin:5%; 
+        width: 200px; 
+        background-color: #c7c9c7; 
+        color: #374ca0;
+        font-size: 3.5vw;
+    }
+}

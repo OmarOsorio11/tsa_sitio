@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    {% load static %}
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">  
+    <title>TSA | Tractores y servicios agricolas</title>
+    <link rel="shortcut icon" href="{% static 'img/logos/favicon.ico' %}" >
+    <link rel="icon" type="image/gif" href="{% static 'img/logos/animated_favicon1.gif' %}" >
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+  </head>
+
+  <body>
+    <!-- Barra de Navegacion-->
+    
+    <nav class="navbar fixed-top navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="{% static 'img/logos/logo_tsa.png' %}" height="30px">
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="{% static 'img/logos/lirics.png' %}" height="30px">
+        </a>
+        <div class="d-flex">
+          <a class="navbar-brand" href="{% url 'catalogo' %}">
+            <img src="{% static 'img/icon/shop.svg' %}" height="30px">
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!--Inicio-->
+    <div class="container-fluid" style="background-color: #c7c9c7; height: 70px;"></div>
+    <div class="container-fluid" style="background-color: #c7c9c7; height: auto;">
+      <div class="row">
+        <div class="col-12 col-md-6 imginicio">
+          <!--Carrusel-->
+          <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{% static 'img/publicidad/one.png' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'img/publicidad/two.png' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'img/publicidad/tree.png' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'img/publicidad/four.png' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'img/publicidad/five.png' %}" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--dautorizado-->
+        <div class="col-12 col-md-6 text-center liricsinicio">
+          <div class="container-fluid" style="background-color: #c7c9c7; height: 30px;"></div>
+          <h1 class="text-center" >
+            Distribuidor autorizado
+          </h1>
+          <p>
+            En TSA somos distribuidores de la herramientas que el campo necesita, entre ellos tractores e implementos, refacciones para cualquier tractor y ademas brindamos servicios de calidad centrados en el campo, para que ese tractor nunca pare.
+          </p>
+          <img class=""  src="{% static 'img/logos/bravadofarmtrac.png' %}" alt="" height="100%">
+          <a href="{% url 'catalogo' %}" class="btn btn-info" role="button" >Consulta nuestro catálogo</a>
+        </div>
+      </div>
+    </div>
+    
+    <!--Second-->
+    <div class="container-fluid" style="background-color: #2e3e80; height: auto;">
+      <div class="row">
+        <!--dautorizado-->
+        <div class="col-12 col-md-6 text-center liricssecond">
+          <h1 class="text-center">
+            TSA Uruapan
+          </h1>
+          <p class="font-p-size ">
+            Tractores y Sevicios Agrícolas es una distribuidora de tractores, implementos, refacciones y servicios, cuyo principal objetivo es brindar los servicios con un alto grado de atención y calidad que el campo necesita. Brindado así, las herramientas adecuadas para la producción agrícola en el estado de Michoacán y sus alrededores.
+          </p>
+          <p></p>
+          <a href="{% url 'catalogo' %}" class="btn btn-info" role="button" >PRODUCTOS</a>
+          <div class="container-fluid"></div>
+        </div>
+        <div class="col-12 col-md-6 imgsecond">
+          <!--Carrusel-->
+          <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{% static 'img/local/01.jpg' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'img/local/02.jpg' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static 'img/local/03.jpg' %}" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Third-->
+    <div class="container-fluid" style="background-color: #c7c9c7; height: auto;">
+      <div class="row">
+        <div class="col-12 col-md-6 imgthird">
+          <!--Carrusel-->
+          <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <!--Cambiar-->
+                <img src="{% static 'img/BRAVADO FARMTRAC/TRACTOR/FT26 4WD26.5HP/FT26 4WD.jpg' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <!--Cambiar-->
+                <img src="{% static 'img/BRAVADO FARMTRAC/TRACTOR/FT6075 PRO 4WD NARROW75 HP/FT6075 PRO 4WD NARROW.jpg' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <!--Cambiar-->
+                <img src="{% static 'img/BRAVADO FARMTRAC/TRACTOR/FT6090 PRO 4WD90 HP/FT6090 PRO 4WD.png' %}" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--dautorizado--> 
+        <div class="col-12 col-md-6 text-center liricsthird">
+          
+          <h1 class="text-center" style="height: 30%; color: #2e3e80; font-size: xx-large;">
+            Nuestros tractores
+          </h1>
+          <p>
+            Los tractores que ofrecemos son Bravado® Farmtrac®, con ellos podrás mejorar el mantenimiento, trabajo y resultado de tus productos en el campo.
+          </p>
+          <p>
+            Sus caracteristicas principales son la perdida minima a la toma de fuerza, totalmente mecánicos, por lo que su mantenimiento es de bajo costo.
+          </p>
+          <a href="{% url 'catalogo' %}" 
+          class="btn btn-info" 
+          role="button" 
+          style="margin:10%; width: 200px; background-color: #2e3e80; color: #c7c9c7; font-size: x-large;">
+          CATÁLOGO</a>
+        </div>
+      </div>
+        
+    </div>
+
+    <!--Four-->
+    <div class="container-fluid" style="background-color: #2e3e80; height: auto;">
+      <div class="row">
+        <!--dautorizado-->
+        <div class="col-12 col-md-6 text-center liricsfour">
+          <h1 class="text-center">
+            Implementos
+          </h1>
+          <p class="font-p-size" >
+            Como no se puede trabajar sin los implementos agrícolas, en TSA te brindamos una lista muy completa de implementos para todo tipo de actividades y potencias de marcas como BISON, FAMAQ, SWISSMEX, entre muchas otras. 
+          </p>
+          <p class="font-p-size">
+            Ofrecemos acolchonadoras, aspersoras, remolques, rastrillos, rastras, desvaradoras, rotovators, desmenuzadoras, molinos, ensiladoras, arados entre otros más.
+          </p>
+          <a href="{% url 'catalogo' %}" class="btn btn-info" role="button" >CATÁLOGO</a>
+          <div class="container-fluid" ></div>
+        </div>
+        
+        <div class="col-12 col-md-6 imgfour">
+          <!--Carrusel-->
+          <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <!--Cambiar-->
+                <img src="{% static 'img/SWISSMEX/SEGADORA DE FORRAJE/62300634 HP/623006.png' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <!--Cambiar-->
+                <img src="{% static 'img/BRAVADO (BISON)/RASTRA DE LEVANTE/RIB-202270HP/RIB-2022.png' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <!--Cambiar-->
+                <img src="{% static 'img/TSA/ASPERSORA DE TURBINA/BHS-20013+13 BOQUILLAS/BHS-200.png' %}" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>      
+        </div>
+      </div>
+    </div>
+    <!--Five-->
+    <div class="container-fluid" style="background-color: #c7c9c7; height: 100%;">
+      <div class="row">
+        <div class="col-12 col-md-6 imgthird">
+          <!--Carrusel-->
+          <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <!--Cambiar-->
+                <img src="{% static 'img/BRAVADO FARMTRAC/TRACTOR/FT6090 PRO 2WD90 HP/FT6090 PRO 2WD.png' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <!--Cambiar-->
+                <img src="{% static 'img/BRAVADO FARMTRAC/TRACTOR/FT7110105 HP CON CABINA/FT7110.jpg' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <!--Cambiar-->
+                <img src="{% static 'img/BRAVADO FARMTRAC/TRACTOR/FT6090 PRO 2WD90 HP/FT6090 PRO 2WD.png' %}" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--dautorizado--> 
+        <div class="col-12 col-md-6 text-center liricsthird">
+          <h1 class="text-center" style="height: 30%; color: #2e3e80; font-size: xx-large;">
+            Refacciones y Servicios
+          </h1>
+         <p>
+           TSA cuenta con un amplio catalogo de refacciones, que en conjunto con nuestros mejores mecánicos dejaran tu tractor listo para trabajar de nuevo.
+         </p>
+         <p>
+           Cotiza con nosotros tu servicio y refaccion y te agendamos una cita para dar mantenimientos preventivos y correctivos.
+          </p>
+          <a href="{% url 'catalogo' %}" 
+          class="btn btn-info" 
+          role="button" 
+          style="margin:10%; width: 200px; background-color: #2e3e80; color: #c7c9c7; font-size: x-large;">
+          CATÁLOGO</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+
+    <div class="container-fluid" style="background-color: #2e3e80; height: 110%;">
+      <div class="row" style="margin-bottom: 30px">
+        <div class="col-12 text-center">
+          <h1 style="margin:2% 0 0 0; color: #c7c9c7;">Contacto</h1>
+        </div>
+        <div class="col-12 col-md-6">
+          <iframe width="90%" height="400px"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15051.043759126173!2d-102.01584728447514!3d19.422732401063545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8307c63a21261eb8!2sTractores%20y%20servicios%20agricolas%20de%20uruapan!5e0!3m2!1ses!2smx!4v1622908771539!5m2!1ses!2smx"  style="border:0; margin: 5%;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col-12 col-md-6" >
+          <div class="d-flex justify-content-around aling-content-center " style="margin: 5%;" >
+            <a href="https://www.instagram.com/bravado_farmtrac_michoacan/">
+              <img src="{% static 'img/logos/social_media/instagram.png' %}" alt="" height="50px">
+            </a>
+            <a href="https://www.facebook.com/BravadoTSA/">
+              <img src="{% static 'img/logos/social_media/facebook.png' %}" alt="" height="50px">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=524526885230">
+              <img src="{% static 'img/logos/social_media/whatsapp.png' %}" alt="" height="50px">
+            </a>
+            <a href="https://www.tiktok.com/@bravado_farmtrac_mich?">
+              <img src="{% static 'img/logos/social_media/tiktok.png' %}" alt="" height="50px">
+            </a>
+          </div>
+          <h2 class="text-center" style="margin: 10% 10% 0 10%; font-size: 20px; color:#c7c9c7">TRACTORES Y SERVICIOS AGRICOLAS DE URUAPAN S DE RL DE CV</h2>
+          <h2 class="text-center" style="margin: 10% 10% 0 10%; font-size: 20px; color:#c7c9c7">Boulevard industrial #4, Col. Anexo San Rafael, 60137 Uruapan, Michoacán.</h2>
+          <h2 class="text-center" style="margin: 10% 10% 0 10%; font-size: 20px; color:#c7c9c7">Tel. 4526885230</h2>
+        </div>
+      </div>
+    </div>
+    <!--  JavaScript -->
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+  </body>
+</html>

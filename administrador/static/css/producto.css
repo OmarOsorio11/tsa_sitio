@@ -1,0 +1,143 @@
+.contenedor{
+        width: 80%;
+        margin: auto;
+}
+p{
+    text-align: justify;
+    font-size: large;
+}
+h1{
+    font-size: xx-large;
+    margin: auto;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F9FA;
+}
+.imagen img{
+    width: 100%;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.links a{
+    text-decoration: none;
+}
+
+.enlaceboton {   
+    padding: 6px;
+    background-color: #2e3e80;
+    color: #c7c9c7;
+    text-decoration: none;
+ }
+ .enlaceboton:link,
+ .enlaceboton:visited {
+    border-top: 1px solid #cccccc;
+    border-bottom: 2px solid #666666;
+    border-left: 1px solid #cccccc;
+    border-right: 2px solid #666666;
+ }
+ .enlaceboton:hover {
+    border-bottom: 1px solid #cccccc;
+    border-top: 2px solid #666666;
+    border-right: 1px solid #cccccc;
+    border-left: 2px solid #666666;
+ }
+@media (min-width: 1100px) {
+    .superior{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagen{
+        width: 50%;
+    }
+    .info{
+        width: 50%;
+    }
+        
+}
+/*Large*/
+@media (min-width: 992px) and (max-width: 1100px) {
+    .superior{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagen{
+        width: 50%;
+    }
+    .info{
+        width: 50%;
+    }
+}
+    /*Medium*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .superior{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagen{
+        width: 50%;
+    }
+    .info{
+        width: 50%;
+    }
+}
+
+/*Small*/ 
+@media (min-width: 576px) and (max-width: 768px) {
+    .superior{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imagen{
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+ 
+}
+/*ExtraSmall*/
+@media (min-width: 380px) and (max-width: 576px) {
+    .superior{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imagen{
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+ 
+}
+
+
+@media (max-width: 380px) {
+    .superior{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .imagen{
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+ 
+}
+/**/
