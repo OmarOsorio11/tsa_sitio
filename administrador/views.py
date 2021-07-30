@@ -14,20 +14,7 @@ def solicitudok(request):
     return render(request,'solicitudok.html')
 
 def cotizar(request, Producto):
-    if request.method == "POST":
-        """form = CotizacionForm(request.POST)
-        if form.is_valid():
-            cotizacion = form.save(commit=False)
-            cotizacion.producto = producto
-            #login(request,user)
-            #cotizacion.save()
-            obj = Cotizacion(nombre_cliente="pas", direccion_cliente="Por Ahi", telefono_cliente=1234567890, producto="Producto", cantidad=1)
-            obj.save()
-            return redirect('solicitudok',{{}})
-        cotizacion=form.save(commit=False)
-        obj = Cotizacion(nombre_cliente=cotizacion.nombre_cliente, direccion_cliente="Por Ahi", telefono_cliente=1234567890, producto="Producto", cantidad=1)
-        obj.save()
-           """     
+    if request.method == "POST": 
         nombreCliente=request.POST['nombre_cliente']
         direccionCliente=request.POST['direccion_cliente']
         telefonoCliente=request.POST['telefono_cliente']
